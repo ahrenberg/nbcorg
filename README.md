@@ -12,7 +12,7 @@ pip install nbcorg
 This should install the software with dependencies, as well as create entry points for the orgmode exporters in nbconvert.
 
 ## Using nbcorg
-Once installed, the orgmode exporters can be selected using the `nbconvert --to` switch, e.g,
+Once installed, the orgmode exporters are avaliable as output format in the `Download as` menu of jupyter, and may also be selected using the nbconvert command line with the `--to` switch
 ```
 jupyter nbconvert --to orgmode mynotebook.ipynb
 ```
@@ -33,7 +33,7 @@ Ignores all output and appends `:session :results output` to code blocks. Useful
 
 This a convenience exporter, running
 ```
-jupyter nbconvert --to orgmode-babel mynotebook.ipynb
+jupyter nbconvert --to orgmode_babel mynotebook.ipynb
 ```
 is the same as
 ```
@@ -121,7 +121,7 @@ code blocks. Input code will be wrapped in a block on the form
 ```
 #+BEGIN_SRC {{ lang }} {{src_block_options}}
    {{ code }}
-   #+END_SRC
+#+END_SRC
 ```
 where `lang` and `code` is given by the notebook.
 This option is useful to add org-babel options so that source blocks can be
