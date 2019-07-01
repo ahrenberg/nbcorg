@@ -54,6 +54,7 @@ Execute results are special outputs separate from display data. The
 when plotting a matplotlib figure is one example.
 
 #### `--OrgmodeExporter.exclude_raw=<Bool>`
+>>>>>>> e2c67131143a6e1fe5228745c97421edfd1b05a6
 Default: False
 
 This allows you to exclude raw cells from all templates if set to True.
