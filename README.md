@@ -168,6 +168,9 @@ nbcorg is dependent on the following software
 - [nbconvert](https://github.com/jupyter/nbconvert)
 - [pandoc](https://github.com/jgm/pandoc)
 
+## Alternatives
+[pandoc](https://github.com/jgm/pandoc) has good support for converting from ipynb to org. However, special treatment of e.g. code blocks for org-babel is out of pandoc scope (as per its manual).
+
 ## Authors
 
 - Lukas Ahrenberg
